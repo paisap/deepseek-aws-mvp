@@ -26,7 +26,7 @@ resource "aws_instance" "deepseek_server" {
 # Grupo de seguridad para permitir tráfico HTTP y SSH
 resource "aws_security_group" "deepseek_sg" {
   name        = "deepseek-sg"
-  description = "Permitir tráfico HTTP y SSH"
+  description = "Permitir trafico HTTP y SSH"
 
   ingress {
     from_port   = 22
