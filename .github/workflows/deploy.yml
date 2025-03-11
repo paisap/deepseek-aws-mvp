@@ -1,9 +1,15 @@
 name: Deploy to AWS
 
+# on:
+#   push:
+#     branches:
+#       - main
+
+
 on:
-  push:
-    branches:
-      - main
+  # Ejecutar manualmente desde GitHub
+  workflow_dispatch:
+
 
 jobs:
   deploy-infra:
@@ -15,12 +21,18 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.6.0
+            terraform_version: 1.6.0
 
       - name: Terraform Init
         run: |
           cd infrastructure
           terraform init
+
+      - name: Import Existing Security Group
+        run: terraform import aws_security_group.deepseek_sg sg-02623acf9c7eca5ab
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: Terraform Plan
         run: |
@@ -31,12 +43,19 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: Terraform Apply
+        if: success()  # Solo si el plan es exitoso
         run: |
           cd infrastructure
           terraform apply -auto-approve
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Save Public IP
+        id: infra-outputs
+        run: |
+          cd infrastructure
+          echo "instance_public_ip=$(terraform output -raw instance_public_ip)" >> $GITHUB_OUTPUT
 
   deploy-app:
     runs-on: ubuntu-latest
