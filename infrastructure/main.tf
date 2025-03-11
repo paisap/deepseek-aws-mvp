@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_instance" "deepseek_server" {
   ami                    = "ami-0884d2865dbe9de4b"  # Ubuntu 22.04 LTS
   instance_type          = "g4dn.xlarge"            # GPU NVIDIA T4
-  key_name               = "github-actions-key"            # Nombre de tu clave SSH en AWS
+  key_name               = "R1"            # Nombre de tu clave SSH en AWS
   vpc_security_group_ids = [aws_security_group.deepseek_sg.id]
 
   tags = {
