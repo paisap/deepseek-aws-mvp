@@ -29,7 +29,9 @@ jobs:
           terraform init
 
       - name: Import Existing Security Group
-        run: terraform import aws_security_group.deepseek_sg sg-02623acf9c7eca5ab
+        run: |
+          cd infrastructure
+          terraform import aws_security_group.deepseek_sg sg-02623acf9c7eca5ab
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
