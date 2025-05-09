@@ -1,0 +1,10 @@
+Nombre: Valeria Nishimura
+Profesión: Física Computacional
+Edad: 37
+Altura: 1.65 m
+Logros:
+- Diseñó un sistema de simulación cuántica para mejorar entrenamientos de reacción en deportes de alta velocidad
+- Fue pionera en el uso de gemelos digitales para atletas de alto rendimiento
+- Asesora tecnológica en proyectos de neurociencia aplicada al rendimiento físico
+- Ganadora del premio MIT Innovators Under 35 en 2020
+- Cofundadora de PhysioTech Labs, una startup de IA aplicada al deporte profesional

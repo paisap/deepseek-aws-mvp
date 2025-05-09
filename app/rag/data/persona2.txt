@@ -1,0 +1,10 @@
+Nombre: Daniel Torres
+Profesión: Doctor en Física aplicada al Deporte
+Edad: 42
+Altura: 1.78 m
+Logros:
+- Desarrolló un modelo biomecánico para optimizar el rendimiento de atletas de élite
+- Publicó más de 30 artículos en revistas científicas de alto impacto
+- Colaboró con equipos olímpicos en la prevención de lesiones mediante análisis de movimiento
+- Recibió el premio internacional a la innovación en ciencias del deporte en 2021
+- Fundó el Centro de Investigación en Biomecánica Deportiva en Medellín
