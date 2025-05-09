@@ -1,1 +1,2 @@
 Despleglar infra estructura
+https://ollama.com/library/deepseek-r1:8b
