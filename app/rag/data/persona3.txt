@@ -1,0 +1,14 @@
+Nombre: Álvaro Carmona 
+Profesión: Vice President of Technology Services of Bancolombia | Chief Technology Officer | CTO | Fulbright Scholar
+Logros:
+Passionate leader and technology builder. My love for my family, swimming, cheese, and classical guitar are combined with my hobby: building autonomous drones. Since I was very young, I have been immersed in the world of technology, and I found my purpose and the way to change the world by building software.
+
+Currently, I am Bancolombia's CTO, where I lead the organisation's operation, innovation, and technological transformation. Together with the entire team, we contribute to creating and evolving technical solutions for today's and future clients.
+
+Now, I have 28 years of experience in this "meta-verse", where I have been able to work on dozens of country-scale projects, involved as a software engineer, architect, IT executive, and entrepreneur. Thanks to this, in 2020, I won the Fulbright INNpulsa scholarship. I completed my master's in Technology and Innovation at the University of Washington in Seattle, United States. There, I worked with the most incredible people in the IT industry, seeking to generate transformative impacts on a global scale.
+
+Technical skills: Software Engineering and Architecture, DevSecOps, SRE, AiOps, Platform Engineering, Performance Optimization, Digital Operations Modeling, Data Analytics and Artificial Intelligence, Internet of Things, Togaf, ITSM, Blockchain, Smart Contracts, Hacking ethics, Business Interoperability, Cloud and on-premise operations, cloud migration, and FinOps.
+
+Soft skills: Digital transformation, entrepreneurship, project management, building high-performance teams, enterprise architecture, business architecture, business design, diversity, equity and inclusion.
+
+Banking skills: Banking as a Service & Open Banking, Real-time payments, Compliance, SuperApps, Cybersecurity, Coreless banking, Interoperability, ISO 2022, BIAN, Remittances, Risk Management, Legal Reporting.

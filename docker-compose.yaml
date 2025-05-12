@@ -3,10 +3,15 @@ version: '3.8'
 services:
   ollama:
     build: ./ollama
+    container_name: ollama_deepseek
     ports:
-      - "11434:11434"
+      - "11434:11434"  # Puerto expuesto de Ollama
     volumes:
-      - ollama_data:/root/.ollama
+      - ./ollama/models:/root/.ollama  # Persistencia de modelos
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    networks:
+      - ia_network
     deploy:
       resources:
         reservations:
@@ -15,14 +20,26 @@ services:
               count: 1
               capabilities: [gpu]
 
-  api:
+  app:
     build: ./app
+    container_name: rag_api
     ports:
-      - "8000:8000"
+      - "8000:8000"  # Puerto para FastAPI
+    volumes:
+      - ./app:/app  # Montar el código
+      - ./app/rag/data:/app/rag/data  # Datos para RAG
+      - rag_db_volume:/app/rag_db  # Volumen para la base vectorial
+    environment:
+      - OLLAMA_HOST=ollama  # Usar nombre del servicio como host
+      - OLLAMA_PORT=11434
     depends_on:
       - ollama
-    environment:
-      - OLLAMA_HOST=http://ollama:11434
+    networks:
+      - ia_network
+
+networks:
+  ia_network:
+    driver: bridge
 
 volumes:
-  ollama_data:
+  rag_db_volume:

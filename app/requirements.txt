@@ -2,5 +2,9 @@ fastapi>=0.68.0
 uvicorn>=0.15.0
 httpx>=0.23.0
 langchain>=0.1.0
+python-multipart
 faiss-cpu>=1.7.0  # Usar faiss-gpu si hay CUDA
 pypdf>=3.0.0
+langchain
+sentence-transformers>=2.2.2
+langchain-community

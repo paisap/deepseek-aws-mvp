@@ -1,10 +1,19 @@
-Nombre: Valeria Nishimura
+Nombre: Andres julian
 Profesión: Física Computacional
 Edad: 37
 Altura: 1.65 m
 Logros:
-- Diseñó un sistema de simulación cuántica para mejorar entrenamientos de reacción en deportes de alta velocidad
-- Fue pionera en el uso de gemelos digitales para atletas de alto rendimiento
-- Asesora tecnológica en proyectos de neurociencia aplicada al rendimiento físico
-- Ganadora del premio MIT Innovators Under 35 en 2020
-- Cofundadora de PhysioTech Labs, una startup de IA aplicada al deporte profesional
+I consider myself responsible, calm, dedicated, creative, tidy, collaborative, and sociable person. With great capacity for leadership, listening, teamwork. Available to grow in knowledge to improve my analytical skills and solve problems that may appear daily in the workplace.
+
+- Cloud Azure: 4 years of experience in Microsoft.
+Microsoft Certified Fundamentals 
+Microsoft Certified: Azure Administrator
+
+- Cloud AWS: 2 years of experience.
+Aws Cloud Practitioner
+
+- Cloud Citrix: 6 years of experience in Cloud an On-premises infraestructure
+Virtual Apps and Desktops Service on Citrix Cloud Certified (CC-VAD-CC)
+Citrix Certified Associate - Virtualization (CCA - V)
+
+More than 10 years of experience like system engineer in different jobs and roles.

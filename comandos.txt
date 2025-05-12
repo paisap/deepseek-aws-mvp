@@ -1,0 +1,3 @@
+docker  ps para mirar # contenedores
+docker-compose up -d --no-deps --build app  # reconstruye el docker necesario sin recontruiur el modelo
+docker-compose up

@@ -1,10 +1,16 @@
-Nombre: Daniel Torres
-Profesión: Doctor en Física aplicada al Deporte
-Edad: 42
-Altura: 1.78 m
+Nombre: Jorge Andres Paniagua
 Logros:
-- Desarrolló un modelo biomecánico para optimizar el rendimiento de atletas de élite
-- Publicó más de 30 artículos en revistas científicas de alto impacto
-- Colaboró con equipos olímpicos en la prevención de lesiones mediante análisis de movimiento
-- Recibió el premio internacional a la innovación en ciencias del deporte en 2021
-- Fundó el Centro de Investigación en Biomecánica Deportiva en Medellín
+Conocimientos En: 
+- Metodologías ágiles - Scrum, Kanban, scrumban, SAFe
+- Planeación, gestión y liderazgo de proyectos - Certificado PMP
+- Puesta en funcionamiento y gestión de redes de datos y servidores web (Apache, tomcat, Internet Information Server-IIS, entre otros)
+- Instalación, configuración y puesta en marcha de hardware tipo torre, rack y blade, enclosures y almacenamiento tipo NAS y SAN con arreglos de discos en RAID. 
+- Correo (Exchange, postfix)
+- UTMs (Checkpoint, D-Link, Endian, TMG/ISA)
+- Herramientas de monitoreo (Nagios, Cacti, OpenNMP, entre otros)
+- LDAP, RADIUS, Directorio Activo, DNS, DHCP, GPOs, integración Unix y Linux con directorio Activo.
+- PKI (Certificados digitales, OpenSSL, CAcert
+- Conocimiento básico en equipos de networking CISCO, configuración IOS.
+- Conocimientos complementarios en seguridad de la información, aseguramiento de infraestructura, ISO27001, ISO9001, CMMI, ITIL, Common Criteria y COBIT.
+
+Specialties: IT Security, IT Management, Networking, Linux, Windows, Unix, ISO27001
