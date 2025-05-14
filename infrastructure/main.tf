@@ -18,8 +18,10 @@ resource "aws_instance" "deepseek_server" {
   key_name               = "BISHOP_R1"            # Nombre de tu clave SSH en AWS
   vpc_security_group_ids = [aws_security_group.deepseek_sg.id]
 
-  tags = {
-    Name = "deepseek-v3-server"
+  root_block_device {
+    volume_size = 50
+    volume_type = "gp3"
+    delete_on_termination = true
   }
 }
 
